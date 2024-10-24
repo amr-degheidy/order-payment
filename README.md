@@ -22,6 +22,7 @@ PAYPAL_TEST_MODE
 ### Run The Following commands
 
 ```php
+composer install
 php artisan key:generate
 php artisan migrate --seed
 php artisan jwt:secret
